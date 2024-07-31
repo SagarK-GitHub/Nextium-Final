@@ -9,7 +9,7 @@ namespace Nextium.Controllers
         [HttpPost("create-order")]
         public IActionResult CreateOrder([FromBody] OrderRequest request)
         {
-            var client = new RazorpayClient("rzp_test_UpCAVDOPC6txDy", "RVx3SowJLjmeu9j1BcEiAx3L");
+            var client = new RazorpayClient("", "");
 
             var options = new Dictionary<string, object>
         {
